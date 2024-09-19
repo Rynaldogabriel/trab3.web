@@ -1,4 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 .room {
-    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
     margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.room:hover {
+    background-color: #e0e0e0;
+}
+
+.status {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
 }
